@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Game_Administration_System"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/cpp_projects/Game_Administration_System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game_Administration_System">
+				<Option output="F:/cpp_projects/Game_Administration_System/cmake-build-debug/Game_Administration_System.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/cpp_projects/Game_Administration_System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game_Administration_System"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Game_Administration_System/fast">
+				<Option output="F:/cpp_projects/Game_Administration_System/cmake-build-debug/Game_Administration_System.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/cpp_projects/Game_Administration_System/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Game_Administration_System/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/cpp_projects/Game_Administration_System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/cpp_projects/Game_Administration_System/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/cpp_projects/Game_Administration_System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/game.cpp">
+			<Option target="Game_Administration_System"/>
+		</Unit>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/game.h">
+			<Option target="Game_Administration_System"/>
+		</Unit>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/game_expansion.cpp">
+			<Option target="Game_Administration_System"/>
+		</Unit>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/game_expansion.h">
+			<Option target="Game_Administration_System"/>
+		</Unit>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/io.cpp">
+			<Option target="Game_Administration_System"/>
+		</Unit>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/io.h">
+			<Option target="Game_Administration_System"/>
+		</Unit>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/main.cpp">
+			<Option target="Game_Administration_System"/>
+		</Unit>
+		<Unit filename="F:/cpp_projects/Game_Administration_System/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
