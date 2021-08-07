@@ -7,6 +7,7 @@
 
 #include <vector>
 #include "iostream"
+#include "algorithm"
 #include "game_expansion.h"
 
 using namespace std;
@@ -39,7 +40,7 @@ public:
 class board_game: public game{
 private:
     string publisher;
-    vector<game_expansion> dlc;
+    vector<game_expansion*> dlc;
 
 public:
     ~board_game() override;
@@ -50,11 +51,9 @@ public:
 
     void setPublisher(const string &publisher);
 
-    const vector<game_expansion> &getDlc() const;
+    void addDlc(game_expansion * nw_dlc);
 
-    void addDlc(const game_expansion &dlc);
-
-    void setDlc(const vector<game_expansion> &nw_dlc);
+    void removeDlc_by_name(const string &dlc_name);
 
     void toString();
 };

@@ -5,23 +5,26 @@
 #ifndef GAME_ADMINISTRATION_SYSTEM_IO_H
 #define GAME_ADMINISTRATION_SYSTEM_IO_H
 #include "game.h"
+#include "algorithm"
 
 class io {
 private:
     vector<game*> game_lib;
 
 public:
+struct GameException:public exception{
+    const char * info(const char * hint) const throw(){
+        return hint;
+    }
+};
+
     void overview();
 
     void add_game(game *nw_game);
 
     void remove_game_by_serial_number(int serial_num);
 
-    void find_game_by_serial_number(const string &serial_num);
-
-    void add_expansion(const game_expansion & ge, const string &serial_num);
-
-    void remove_expansion(const game_expansion & ge, const string &serial_num);
+    game *find_game_by_serial_number(int serial_num);
 };
 
 

@@ -69,19 +69,11 @@ void board_game::setPublisher(const string &publisher) {
     board_game::publisher = publisher;
 }
 
-const vector<game_expansion> &board_game::getDlc() const {
-    return dlc;
-}
-
-void board_game::setDlc(const vector<game_expansion> &dlc) {
-    board_game::dlc = dlc;
-}
-
 void board_game::toString() {
     cout << "Board game:  " << getSerialNumber() <<"." << getGameName() << "(" << getMaxPlayers() << " players), " << "published by " << getPublisher() << endl;
     cout << "    Expansions:" << endl;
     for (auto each_dlc : dlc){
-        each_dlc.toString();
+        each_dlc->toString();
     }
 }
 
@@ -89,13 +81,24 @@ board_game::board_game(const string &gameName, unsigned int maxPlayers, const st
                                                                                                         maxPlayers),
                                                                                                    publisher(
                                                                                                            publisher) {}
-void board_game::addDlc(const game_expansion &nw_dlc) {
-    dlc.push_back(nw_dlc);
-}
 
 board_game::~board_game() {
 
 }
+
+void board_game::removeDlc_by_name(const string &dlc_name) {
+    for(auto each_dlc : dlc){
+        if((each_dlc->getName().compare(dlc_name)) == 0){
+            dlc.erase(remove(dlc.begin(), dlc.end(), each_dlc), dlc.end());
+        }
+    }
+}
+
+void board_game::addDlc(game_expansion *nw_dlc) {
+   dlc.push_back(nw_dlc);
+}
+
+
 
 
 
