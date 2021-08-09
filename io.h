@@ -12,11 +12,6 @@ private:
     vector<game*> game_lib;
 
 public:
-struct GameException:public exception{
-    const char * info(const char * hint) const throw(){
-        return hint;
-    }
-};
 
     void overview();
 

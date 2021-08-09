@@ -11,6 +11,9 @@ void io::overview() {
 }
 
 void io::add_game(game *nw_game) {
+    if(find_game_by_serial_number(nw_game->getSerialNumber()) != nullptr){
+        throw runtime_error("Game " + nw_game->getGameName() + " already exists!");
+    }
     game_lib.push_back(nw_game);
 }
 
